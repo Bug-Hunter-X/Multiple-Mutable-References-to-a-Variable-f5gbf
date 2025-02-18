@@ -1,0 +1,1 @@
+fn main() {    let mut x = 5;    // Using a single mutable reference ensures predictable behavior.    let y = &mut x;    *y = 6;    println!("{}", x); // Output: 6} Or, alternatively, using a different approach that avoid the mutable reference issue. 
